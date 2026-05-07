@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://dtjktlf1gpaxl"]
+
+[ext_resource type="Texture2D" uid="uid://dbs31uadh0tn" path="res://assets/littletreeman.png" id="1_nu63s"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_uollg"]
+radius = 7.0
+
+[node name="LittleTreeGuy" type="Node2D" unique_id=793040490]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="." unique_id=222508695]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D" unique_id=334976519]
+shape = SubResource("CircleShape2D_uollg")
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D" unique_id=602504638]
+position = Vector2(2, -10)
+texture = ExtResource("1_nu63s")
