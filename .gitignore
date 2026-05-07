@@ -1,15 +1,8 @@
 # --- Godot specific ---
-.godot/                # The internal cache (re-generated automatically)
-*.import               # Optional: Ignores import settings (Godot re-imports on open)
-export_presets.cfg     # Prevents sharing your private export/signing keys
-.tmp/                  # Temporary files
-
-# --- C# / Mono (if you're using C#) ---
-.mono/
-bin/
-obj/
-*.sln
-*.csproj
+# .godot/                # The internal cache (re-generated automatically)
+# *.import               # Optional: Ignores import settings (Godot re-imports on open)
+# export_presets.cfg     # Prevents sharing your private export/signing keys
+# .tmp/                  # Temporary files
 
 # --- System & Tool specific ---
 .DS_Store              # Mac-specific junk
